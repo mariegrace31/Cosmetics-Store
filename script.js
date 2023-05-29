@@ -28,7 +28,7 @@ links.forEach((link) => {
 const beautician = [{
   image: 'images/Esthetician .png',
   name: 'Marleine Tshel',
-  description: 'Internatioal esthetician and over 8 years of experience.',
+  description: 'Internatioal esthetician and over 8 years of experience as an esthetician.',
   paragraph: 'Finished her esthetician studies and got her certificate in 2012. She provides services for your skin care needs.',
 }, {
   image: 'images/Makeup artist .png',
@@ -38,7 +38,7 @@ const beautician = [{
 }, {
   image: 'images/eshetician2.png',
   name: 'Virgile Bual',
-  description: 'Internatioal esthetician and over 8 years of experience.',
+  description: 'Internatioal esthetician and over 8 years of experience as an esthetician.',
   paragraph: 'Finished her esthetician studies and got her certificate in 2012. She provides services for your skin care needs.',
 }, {
   image: 'images/esthetician3.png',
@@ -53,7 +53,7 @@ const beautician = [{
 }, {
   image: 'images/spa artist.png',
   name: 'Lauraine Abdob',
-  description: 'Internatioal esthetician and over 8 years of experience.',
+  description: 'Internatioal esthetician and over 8 years of experience as an esthetician.',
   paragraph: 'Finished her esthetician studies and got her certificate in 2012. She provides services for your skin care needs.',
 }];
 
