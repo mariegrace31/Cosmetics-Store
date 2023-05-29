@@ -43,8 +43,12 @@ q {
 }
 
 h1 {
-  color: rgb(236, 82, 66);
-  font-size: 36px;
+  color: rgba(245, 55, 34, 0.6);
+  font-size: 37px;
+  background-image: url(images/text\ back.png);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .description {
@@ -200,7 +204,7 @@ figcaption {
 
 .artist-underline {
   width: 13%;
-  height: 1%;
+  height: 0;
   border: 1px solid #d3d3d3;
 }
 
@@ -531,19 +535,19 @@ footer {
     flex-direction: column;
     margin-left: 250px;
     width: 45%;
-    gap: 35px;
+    gap: 20px;
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   q {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .description {
-    font-size: 18px;
+    font-size: 14px;
     padding: 18px;
     line-height: 30px;
   }
@@ -600,7 +604,7 @@ footer {
   .artist-description {
     display: flex;
     flex-direction: row;
-    margin-top: 45px;
+    margin-top: 40px;
     width: 100%;
   }
 
@@ -623,26 +627,29 @@ footer {
   }
 
   figcaption {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .artist-paragraph {
-    font-size: 13px;
-    margin-bottom: 25px;
+    font-size: 12px;
+    margin-bottom: 20px;
   }
 
   .artist-underline {
-    margin-bottom: 19px;
+    margin-bottom: 15px;
+    height: 0;
   }
 
   h4 {
-    font-size: 15px;
-    margin-top: 15px;
+    font-size: 13px;
+    margin-top: 12px;
   }
 
   .artist-image {
     height: 25vh;
   }
+
+  /* Partners */
 
   .PARTNER {
     background: rgb(17, 17, 17, 0.9);
@@ -705,22 +712,23 @@ footer {
   /* header */
 
   .slogan {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 45px;
+    line-height: 45px;
   }
 
   .main2 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    gap: 15px;
   }
 
   .description2 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .contact-us {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   /* LOGO */
