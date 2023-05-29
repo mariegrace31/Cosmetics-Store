@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  background-image: url(images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav-bar,
+.nav-icons {
+  display: none;
+}
+
+.fa-bars {
+  color: #524c4c;
+  margin: 20px;
+}
+
+.fa-bars:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin: 18px;
+}
+
+q {
+  color: #ec5242;
+  font-size: 25px;
+}
+
+h1 {
+  color: rgb(236, 82, 66);
+  font-size: 36px;
+}
+
+.description {
+  border: 3px solid white;
+  background-color: #f0ecec;
+  color: #272a31;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.promotion {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.more {
+  text-decoration: none;
+  color: #272a31;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.more:hover {
+  text-decoration: underline;
+}
+
+/* Main products */
+
+.products {
+  background-image: url(images/products\ bck.png);
+  text-align: center;
+  height: 100vh;
+}
+
+h2 {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.title-underline {
+  width: 15%;
+  border: 1px solid #ec5242;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skincare {
+  display: flex;
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+.explication {
+  color: #fff;
+  font-size: 15px;
+  text-align: left;
+  max-width: 60%;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+}
+
+h3 {
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #ec5242;
+  padding: 12px;
+  color: #fff;
+  font-size: 15px;
+  width: 250px;
+}
+
+.button:hover {
+  background-color: #f1936e;
+  color: #272a31;
+}
+
+/* Artists */
+
+.arts {
+  color: #111;
+}
+
+.artists {
+  background-color: #fff;
+}
+
+.artist-description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 15px;
+}
+
+.artist-card {
+  display: none;
+}
+
+.artist-card:first-child,
+.artist-card:nth-child(2) {
+  display: flex;
+}
+
+.artist-card.expand {
+  display: flex;
+}
+
+.artist-image {
+  width: 115px;
+  height: 190px;
+  border-radius: 6px;
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  z-index: 2;
+}
+
+.imgs {
+  display: inline-block;
+  position: relative;
+}
+
+.back-img {
+  width: 12vh;
+  height: 10vh;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #272a31;
+}
+
+figcaption {
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.artist-underline {
+  width: 13%;
+  height: 1%;
+  border: 1px solid #d3d3d3;
+}
+
+.artist-paragraph {
+  font-size: 14px;
+  color: #272a31;
+}
+
+.art-desc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.artist {
+  display: flex;
+  gap: 15px;
+}
+
+.artist-button {
+  padding: 15px;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
+  width: 90%;
+  margin: 20px;
+}
+
+.artist-button:hover {
+  border: 2px solid #272a31;
+}
+
+.fa-chevron-down,
+.fa-chevron-up {
+  color: #ec5242;
+  margin: 6px;
+}
+
+.PARTNER {
+  display: none;
+}
+
+.Footer {
+  display: none;
+}
+
+/* second page */
+
+.about {
+  background-image: url(images/about\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  line-height: 29px;
+}
+
+.main2 {
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.navicons {
+  display: none;
+}
+
+.slogan {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description2 {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+  color: #272a31;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.contact-us {
+  font-size: 16px;
+  color: #272a31;
+}
+
+.mail {
+  color: #272a31;
+  font-weight: bold;
+}
+
+/* logo */
+
+.art {
+  color: #272a31;
+}
+
+.our-logo {
+  text-align: center;
+  height: 60vh;
+}
+
+.paragraphe {
+  color: #272a31;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.logoo {
+  width: 50%;
+  border: 2px solid #d3d3d3;
+}
+
+.logo-description {
+  display: grid;
+  gap: 35px;
+  margin: 13px;
+}
+
+/* awards */
+
+.awards {
+  border-top: 2px solid #d3d3d3;
+  background-color: #fff;
+  text-align: center;
+}
+
+h5 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 145px;
+}
+
+.see-award1 {
+  background: url(images/first\ award.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  box-shadow: inset 0 0 0 1000px rgb(236, 82, 66, 0.6);
+}
+
+.award {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 15px;
+}
+
+.see-award2 {
+  background: url(images/second\ award.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  box-shadow: inset 0 0 0 1000px rgb(236, 82, 66, 0.6);
+}
+
+.award-par {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* partners */
+
+.partner {
+  background-color: rgb(17, 17, 17, 0.8);
+  height: 45vh;
+  margin-top: 50px;
+}
+
+.partner-image {
+  width: 70px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.partners {
+  text-align: center;
+}
+
+/* footer */
+
+.LOGO {
+  width: 90px;
+}
+
+.footer {
+  color: #272a31;
+  font-size: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+}
