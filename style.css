@@ -33,7 +33,7 @@ header {
 .main {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: 25px;
   margin: 18px;
 }
 
@@ -103,12 +103,12 @@ h2 {
   padding: 10px;
   align-items: center;
   justify-content: space-between;
-  margin: 12px;
+  margin: 10px;
 }
 
 .explication {
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   max-width: 60%;
 }
@@ -126,10 +126,9 @@ h3 {
 
 .button {
   background-color: #ec5242;
-  padding: 12px;
+  padding: 11px;
   color: #fff;
-  font-size: 15px;
-  width: 250px;
+  font-size: 13px;
 }
 
 .button:hover {
@@ -165,6 +164,10 @@ h3 {
 
 .artist-card.expand {
   display: flex;
+}
+
+.artist-wrapper {
+  width: 90%;
 }
 
 .artist-image {
@@ -457,6 +460,13 @@ footer {
 
 /* first page */
 
+@media screen and (max-width: 500px) {
+  .artist-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .nav-icons {
     display: flex;
@@ -609,7 +619,7 @@ footer {
   }
 
   .artist-wrapper {
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
