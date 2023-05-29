@@ -60,7 +60,7 @@ Install this project with: cd my-project npm install
 <!-- LIVE -->
 
 ##  Live Demo <a name="liveDemo"></a>
-- Live link: click this <a href="">live link </a> to see my project.
+- Live link: click this <a href="https://mariegrace31.github.io/capstone-project/home.html">live link </a> to see my project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
