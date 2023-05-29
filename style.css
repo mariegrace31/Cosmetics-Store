@@ -402,3 +402,370 @@ footer {
   justify-content: space-around;
   height: 20vh;
 }
+
+/* DOM */
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-menu {
+  background-color: #ec5242;
+  opacity: 0.9;
+  height: 100vh;
+  margin-top: -72px;
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+.nav-menu.active {
+  display: block;
+}
+
+.nav-menu ul li {
+  margin: 20px;
+  font-size: 35px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.fa-times {
+  color: #272a31;
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.product-list {
+  margin-bottom: 15px;
+}
+
+/* Desketop version */
+
+/* first page */
+
+@media screen and (min-width: 768px) {
+  .nav-icons {
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+    color: #fff;
+    background-color: #272a31;
+  }
+
+  .nav-icons ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 330px;
+  }
+
+  .nav-icons ul li {
+    list-style: none;
+  }
+
+  .nav-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .fa-bars {
+    display: none;
+    visibility: hidden;
+    margin: 0;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 45px;
+    font-weight: bold;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .click {
+    width: 50px;
+  }
+
+  .flawless {
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    padding: 10px;
+  }
+
+  .flawless:hover {
+    border: 3px solid #272a31;
+  }
+
+  .LINK {
+    color: #272a31;
+  }
+
+  .LINK:hover {
+    color: #ec5242;
+  }
+
+  /* header */
+
+  .main {
+    flex-direction: column;
+    margin-left: 250px;
+    width: 45%;
+    gap: 35px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  q {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 18px;
+    padding: 18px;
+    line-height: 30px;
+  }
+
+  .promotion {
+    font-size: 34px;
+  }
+
+  /* Products */
+
+  .skincare {
+    flex-direction: column;
+    width: 16%;
+    margin: 3px;
+    text-align: center;
+  }
+
+  .skincare:hover {
+    border: 2px solid #fff;
+  }
+
+  .product-list {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+
+  .title-underline {
+    width: 5%;
+  }
+
+  .explication {
+    font-size: 14px;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .product-image {
+    height: 65px;
+    width: 70px;
+  }
+
+  .button {
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: underline;
+    line-height: 150px;
+  }
+
+  /* Artists */
+
+  .artist-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  .artist-wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .artist-card {
+    display: flex;
+    width: 45%;
+    margin: 3px;
+  }
+
+  .artist-button {
+    display: none;
+  }
+
+  figcaption {
+    font-size: 13px;
+  }
+
+  .artist-paragraph {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .artist-underline {
+    margin-bottom: 19px;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .artist-image {
+    height: 25vh;
+  }
+
+  .PARTNER {
+    background: rgb(17, 17, 17, 0.9);
+    display: grid;
+  }
+
+  .PARTNERS {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .partner-img {
+    width: 150px;
+    height: 90px;
+    border-radius: 5px;
+  }
+
+  .Footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px;
+  }
+
+  .footer2 {
+    font-size: 23px;
+    padding-top: 20px;
+  }
+
+  .LOGO2 {
+    width: 100px;
+  }
+
+  /* second page */
+
+  .navicons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 10px;
+    align-items: center;
+  }
+
+  .id {
+    font-size: 13px;
+    color: #272a31;
+  }
+
+  .fa-angle-right {
+    color: #ec5242;
+  }
+
+  .fa-home {
+    color: #272a31;
+  }
+
+  /* header */
+
+  .slogan {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .main2 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description2 {
+    font-size: 17px;
+  }
+
+  .contact-us {
+    font-size: 17px;
+  }
+
+  /* LOGO */
+
+  .our-logo {
+    width: 60%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logoo {
+    width: 60vh;
+    height: 40vh;
+  }
+
+  .award {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .see-award1,
+  .see-award2 {
+    width: 50vh;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer {
+    background-color: rgb(17, 17, 17, 0.9);
+    justify-content: center;
+    gap: 40px;
+    height: 25vh;
+    margin-top: 30px;
+  }
+
+  .footer {
+    color: #fff;
+    font-size: 23px;
+  }
+
+  .LOGO {
+    width: 20vh;
+  }
+}
